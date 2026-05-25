@@ -1,5 +1,5 @@
 import "./index.css";
-import "./app.css";
+import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth, ROLE_PERMISSIONS } from "./context/AuthContext";
 import Sidebar, { SidebarItem } from "./components/sidebar";
