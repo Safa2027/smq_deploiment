@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ProcessCard from "../../components/ProcessCard";
+import ProcessCard from "../../components/processcard";
 import AddFichePopup from "./AddFichePopup";
 import AddProcessForm from "./addprocessform";
 import ISOChecklist from "./ISOChecklist";
