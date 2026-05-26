@@ -3,8 +3,9 @@ import logo from "../../assets/logo.png";
 import { ChevronLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
+import { API_URL } from '../../api.js';
 
-const API_URL = "http://127.0.0.1:8000/api";
+
 
 // ─────────────────────────────────────────────
 // LOGIN
